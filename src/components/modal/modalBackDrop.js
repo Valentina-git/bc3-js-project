@@ -2,7 +2,7 @@ import './styles.css';
 
 export const modalBackDrop = templation => {
     const container = document.querySelector('.modal');
-    const createModalMarkup = () => { return `${templation}`; };
+    const createModalMarkup = (closeModal) => { return `${templation}`; };
 
     const closeModal = () => {
         container.classList.remove('is-open');
