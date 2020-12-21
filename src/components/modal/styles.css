@@ -1,0 +1,17 @@
+.modal-wrapper {
+  position: relative;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  background-color: white;
+}
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+}

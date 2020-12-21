@@ -1,0 +1,40 @@
+.loader {
+  background: #02172a;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .loader {
+    width: 320px;
+    height: 70px;
+    padding-top: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .loader {
+    width: 768px;
+    height: 96px;
+    padding-top: 37px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .loader {
+    width: 1280px;
+    height: 106px;
+    padding-top: 41px;
+  }
+}
+
+button.loader__btn {
+  display: block;
+  margin: auto;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  background: #02172a;
+  color: #ffffff;
+  border: none;
+}

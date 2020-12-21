@@ -1,1 +1,1 @@
-const test = [];
+const hello = 1;
